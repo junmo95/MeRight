@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+.body-board{
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 90%;
+    padding: 50px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.board-title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* --------------- 
+페이지 개수 설정 박스
+------------------ */
+.board-length-box{
+    float: right;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    font-family: 'Noto Sans KR', sans-serif;}
+
+select {
+    width: 50px;
+    padding: 3px;
+    background: url(https://farm1.staticflickr.com/379/19928272501_4ef877c265_t.jpg) no-repeat 95% 50%;
+    border: 1px solid #999; 
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;
+}
+/* -------------------------
+게시글 확인 Table
+---------------------------- */
+.board-box table{
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    border-spacing: 0;
+    border: none;
+}
+
+.boardCnt{
+    text-align: center;
+    color: gray;
+    font-size: 13px;
+}
+
+.board-box th{
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.board-box td{
+    padding: 10px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.btn-bg{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.board-box .bindex{
+    width: 5%;
+}
+
+.board-box .btitle{
+    width: 15%;
+}
+
+.btitle-a{
+    color: black;
+}
+
+/* .board-box .content{
+    width: 20%;
+} */
+
+.board-box .buser{
+    width: 7%;
+}
+
+.write-btn{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.write-btn:hover{
+    border: none;
+    background-color: black;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    color: white;
+}
+/* ------------------------
+게시글 작성 페이지
+--------------------------- */
+.board-write{
+    border: 1px solid rgb(170, 170, 170);
+    width: 80%;
+    margin: 0 auto;
+}
+
+.board-write h3{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.text-title-box{
+    margin-top: 30px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.board-p{
+    text-align: center;
+}
+
+.write-box{
+    text-align: center;
+}
+
+.text-title-box{
+    width: 80%;
+    padding:10px;
+    margin-bottom: 20px;
+}
+
+.text-box{
+    width: 80%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.file-input{
+    float: right;
+    margin-right: 150px;
+}
+
+/* ------------------------
+게시글 확인창
+--------------------------- */
+.body-boardread{
+    text-align: center;
+    width: 100%;
+    padding: 50px;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.boardread-title{
+    margin-bottom: 30px;
+}
+
+.b-table{
+    width: 80%;
+    margin: 0 auto;
+    border-top: 3px solid black;
+    border-bottom: 1px solid black;
+}
+
+.b-title {
+    height: 30px;
+    margin: 0 auto;
+    border-bottom: 3px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.b-content{
+    border: none;
+    height: 300px;
+    text-align: left;
+}
+
+.b{
+    border-right: 1px solid black;
+    text-align: center;
+}
+
+.b1{
+    width: 10%;
+}
+
+/* --------------------
+댓글창
+----------------------- */
+.boardReadtb{
+    width: 80%;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.comment-title{
+    font-size: 25px;
+    text-align: left;
+    border-bottom: 5px solid black;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: -60px;
+    z-index: 9999;
+    position: relative;
+}
+
+.coment-detail{
+    width: 80%;
+    text-align: right;
+    color: gray;
+    font-size: 12px;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+}
+
+.brt-user{
+    width: 5%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid lightgrey;
+    padding: 5px;
+}
+
+.brt-comment{
+    width: 70%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid lightgrey;
+    padding: 5px;
+}
+
+.brt-time{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid lightgrey;
+    padding: 5px;
+}
+
+
+/* ----------------------
+댓글박스
+------------------------- */
+.comment-box{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -60px;
+}
+.board-comment{
+    margin-top: 30px;
+    width: 85%;
+    height: 30px;
+}
+
+.board-commentBtn{
+    background-color: white;
+    border: 1px solid lightgray;
+    width: 50px;
+    height: 30px;
+}
+
+.board-commentBtn:hover{
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.boardread-btn{
+    background-color: rgb(39, 39, 39);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 50px;
+    height: 30px;
+    margin: 30px 0px 10px 10px;
+}
+
+.boardread-btn:hover{
+    background-color: rgb(108, 108, 108);
+    color: white;
+}

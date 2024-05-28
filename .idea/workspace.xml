@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4bcae7ef-d309-46fb-96cf-466751823602" name="Changes" comment="ㄴㅁㅇㅁㄴㅇ">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeRight/Server/flaskapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MeRight/Server/flaskapp/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CCVcwFg2UWuWJP1dgTK5U7CsiR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wkfth/Documents/GitHub/kfq_gyeonggi_2022&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wkfth\Documents\GitHub\kfq_gyeonggi_2022\MeRight\Server\flaskapp\img" />
+      <recent name="C:\Users\wkfth\Documents\GitHub\kfq_gyeonggi_2022\MeRight\Server" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4bcae7ef-d309-46fb-96cf-466751823602" name="Changes" comment="" />
+      <created>1658306637751</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658306637751</updated>
+    </task>
+    <task id="LOCAL-00022" summary="서버 챗봇 테스트">
+      <created>1663914594999</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1663914594999</updated>
+    </task>
+    <task id="LOCAL-00023" summary="서버 챗봇 테스트">
+      <created>1663914685945</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1663914685945</updated>
+    </task>
+    <task id="LOCAL-00024" summary="서버 챗봇 테스트">
+      <created>1663914847730</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1663914847730</updated>
+    </task>
+    <task id="LOCAL-00025" summary="서버 챗봇 테스트">
+      <created>1663920158526</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1663920158526</updated>
+    </task>
+    <task id="LOCAL-00026" summary="서버 챗봇 테스트">
+      <created>1663924439871</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1663924439871</updated>
+    </task>
+    <task id="LOCAL-00027" summary="서버 챗봇 테스트">
+      <created>1663924572027</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1663924572027</updated>
+    </task>
+    <task id="LOCAL-00028" summary="서버 챗봇 테스트">
+      <created>1663924763320</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1663924763320</updated>
+    </task>
+    <task id="LOCAL-00029" summary="서버 챗봇 테스트">
+      <created>1663925242397</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1663925242397</updated>
+    </task>
+    <task id="LOCAL-00030" summary="서버 경로변경 테스트">
+      <created>1663948866054</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1663948866054</updated>
+    </task>
+    <task id="LOCAL-00031" summary="서버 경로변경 테스트">
+      <created>1663949517656</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1663949517656</updated>
+    </task>
+    <task id="LOCAL-00032" summary="서버 경로변경 테스트">
+      <created>1663950153114</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1663950153114</updated>
+    </task>
+    <task id="LOCAL-00033" summary="서버 챗봇 테스트">
+      <created>1664095682571</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1664095682571</updated>
+    </task>
+    <task id="LOCAL-00034" summary="서버 face 수정">
+      <created>1664099623911</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1664099623911</updated>
+    </task>
+    <task id="LOCAL-00035" summary="서버 face 수정">
+      <created>1664099827920</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1664099827920</updated>
+    </task>
+    <task id="LOCAL-00036" summary="서버 face 수정">
+      <created>1664101229623</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1664101229623</updated>
+    </task>
+    <task id="LOCAL-00037" summary="서버 face 수정">
+      <created>1664134696939</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1664134696939</updated>
+    </task>
+    <task id="LOCAL-00038" summary="보드 코멘트 수정실패">
+      <created>1664136825206</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1664136825206</updated>
+    </task>
+    <task id="LOCAL-00039" summary="게시판 댓글불러오기">
+      <created>1664159771002</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1664159771002</updated>
+    </task>
+    <task id="LOCAL-00040" summary="서버 챗봇 테스트">
+      <created>1664173896497</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1664173896497</updated>
+    </task>
+    <task id="LOCAL-00041" summary="서버 챗봇 테스트">
+      <created>1664174126927</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1664174126927</updated>
+    </task>
+    <task id="LOCAL-00042" summary="서버 챗봇 테스트">
+      <created>1664174559727</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1664174559727</updated>
+    </task>
+    <task id="LOCAL-00043" summary="서버 챗봇 테스트">
+      <created>1664174806656</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1664174806656</updated>
+    </task>
+    <task id="LOCAL-00044" summary="서버 챗봇 테스트">
+      <created>1664175263512</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1664175263512</updated>
+    </task>
+    <task id="LOCAL-00045" summary="서버 챗봇 테스트">
+      <created>1664175432684</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1664175432684</updated>
+    </task>
+    <task id="LOCAL-00046" summary="서버 챗봇 테스트">
+      <created>1664175542112</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1664175542112</updated>
+    </task>
+    <task id="LOCAL-00047" summary="서버 챗봇 테스트">
+      <created>1664175673755</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1664175673755</updated>
+    </task>
+    <task id="LOCAL-00048" summary="서버 챗봇 테스트">
+      <created>1664176614733</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1664176614733</updated>
+    </task>
+    <task id="LOCAL-00049" summary="서버 챗봇 테스트">
+      <created>1664176828779</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1664176828779</updated>
+    </task>
+    <task id="LOCAL-00050" summary="서버 챗봇 테스트">
+      <created>1664177211023</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1664177211024</updated>
+    </task>
+    <task id="LOCAL-00051" summary="서버 챗봇 테스트">
+      <created>1664177288417</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1664177288417</updated>
+    </task>
+    <task id="LOCAL-00052" summary="서버 챗봇 테스트">
+      <created>1664178161827</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1664178161827</updated>
+    </task>
+    <task id="LOCAL-00053" summary="서버 챗봇 테스트">
+      <created>1664179114772</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1664179114772</updated>
+    </task>
+    <task id="LOCAL-00054" summary="서버 챗봇 테스트">
+      <created>1664179346276</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1664179346276</updated>
+    </task>
+    <task id="LOCAL-00055" summary="서버 챗봇 테스트">
+      <created>1664179746664</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1664179746665</updated>
+    </task>
+    <task id="LOCAL-00056" summary="서버 챗봇 테스트">
+      <created>1664179824505</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1664179824505</updated>
+    </task>
+    <task id="LOCAL-00057" summary="서버 챗봇 테스트">
+      <created>1664182006067</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1664182006067</updated>
+    </task>
+    <task id="LOCAL-00058" summary="서버 챗봇 테스트">
+      <created>1664182148626</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1664182148626</updated>
+    </task>
+    <task id="LOCAL-00059" summary="서버 챗봇 테스트">
+      <created>1664182746192</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1664182746192</updated>
+    </task>
+    <task id="LOCAL-00060" summary="서버 챗봇 테스트">
+      <created>1664182993123</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1664182993124</updated>
+    </task>
+    <task id="LOCAL-00061" summary="서버 챗봇 테스트">
+      <created>1664183556500</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1664183556500</updated>
+    </task>
+    <task id="LOCAL-00062" summary="서버 챗봇 테스트">
+      <created>1664183770429</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1664183770429</updated>
+    </task>
+    <task id="LOCAL-00063" summary="서버 챗봇 테스트">
+      <created>1664184082464</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1664184082464</updated>
+    </task>
+    <task id="LOCAL-00064" summary="서버 챗봇 테스트">
+      <created>1664185019605</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1664185019605</updated>
+    </task>
+    <task id="LOCAL-00065" summary="서버 챗봇 테스트">
+      <created>1664185351123</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1664185351123</updated>
+    </task>
+    <task id="LOCAL-00066" summary="서버 챗봇 테스트">
+      <created>1664185431298</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1664185431298</updated>
+    </task>
+    <task id="LOCAL-00067" summary="서버 챗봇 테스트">
+      <created>1664190379101</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1664190379101</updated>
+    </task>
+    <task id="LOCAL-00068" summary="서버 챗봇 테스트">
+      <created>1664190498610</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1664190498610</updated>
+    </task>
+    <task id="LOCAL-00069" summary="서버 챗봇 테스트">
+      <created>1664191010131</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1664191010131</updated>
+    </task>
+    <task id="LOCAL-00070" summary="ㄴㅁㅇㅁㄴㅇ">
+      <created>1664192012662</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1664192012662</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MySQL 연결" />
+    <MESSAGE value="ES 및 Face" />
+    <MESSAGE value="DB연결 성공" />
+    <MESSAGE value="로그인토큰발행" />
+    <MESSAGE value="수정" />
+    <MESSAGE value="FastAPI 연결설정" />
+    <MESSAGE value="DB 컬럼 수정" />
+    <MESSAGE value="서버 프록시 수정 테스트" />
+    <MESSAGE value="서버 프록시 로컬호스트 수정 테스트" />
+    <MESSAGE value="서버 암호화 테스트" />
+    <MESSAGE value="서버 react 테스트" />
+    <MESSAGE value="서버 로그인 테스트" />
+    <MESSAGE value="서버 경로변경 테스트" />
+    <MESSAGE value="서버 face 수정" />
+    <MESSAGE value="보드 코멘트 수정실패" />
+    <MESSAGE value="게시판 댓글불러오기" />
+    <MESSAGE value="서버 챗봇 테스트" />
+    <MESSAGE value="ㄴㅁㅇㅁㄴㅇ" />
+    <option name="LAST_COMMIT_MESSAGE" value="ㄴㅁㅇㅁㄴㅇ" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MeRight/Server/flaskapp/init_db.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

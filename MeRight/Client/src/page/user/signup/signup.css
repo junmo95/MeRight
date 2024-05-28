@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+.body-signup{
+    margin-top: 200px;
+}
+
+.signup-box{
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.meright{
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.sign-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-bottom: -10px;
+}
+
+.write{
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 70%;
+    height: 50px;
+}
+
+.signup-btn{
+    margin-top: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: none;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 350px;
+    height: 30px;
+}
+
+.signup-btn:hover{
+    background-color: rgb(169, 169, 169);
+    color: white;
+}
+.detail-signup{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.detail-signup a{
+    font-style: none;
+}

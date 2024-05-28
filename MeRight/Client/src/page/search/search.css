@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+/* -------------------
+메인바
+---------------------- */
+.search-main{
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  background-image: url("http://news.samsungdisplay.com/wp-content/uploads/2018/02/4-1.png") ;
+  background-repeat: no-repeat;
+  background-size: 100% 400px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+  
+.search-main::before{
+  content:"";
+  opacity:0.5;
+  position:absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  background-color: rgb(0, 0, 0);
+}
+  
+.main-text2{
+  position: relative;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgb(221, 221, 221);
+  font-size: 55px;
+  padding-top: 0;
+}
+  
+.main-explane2{
+  padding-top: 5%;
+  position: relative;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  color: rgb(166, 166, 166);
+}
+
+b{
+  color: rgb(220, 155, 42);
+}
+
+
+/* -----------------------------------------
+이미지 및 태그 검색하기
+------------------------------------------- */
+.search-box{
+  width: 80%;
+  margin: 150px auto;
+  text-align: center;
+}
+
+.search-title{
+  border-bottom: 10px solid black;
+  width: 100%;
+  text-align: left;
+}
+
+.search-title h3{
+  font-family: 'Roboto Condensed', sans-serif;
+  display: inline-block;
+  background-color: black;
+  color: rgb(151, 151, 151);
+  height: 50px;
+  line-height: 50px;
+  padding: 0px 20px;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  margin-right: 50px;
+}
+
+.search-title h3::before{
+  content: "";
+  position: absolute;
+  left: 100%;
+  border: 25px solid black;
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+
+.search-b{
+  font-size: 23px;
+  color: white;
+}
+
+/* ----------------------
+img 검색 안내사항
+------------------------- */
+.search-content{
+  border: 0.5px solid black;
+  border-bottom: 2px solid rgb(78, 78, 78, 0.3);
+  text-align: center;
+  padding-bottom: 50px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: -150px;
+  margin-bottom: 100px;
+}
+
+.search-detail{
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.search-detail h3{
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+
+.search-detail p{
+  font-size: 15px;
+  padding-top: 5px;
+}
+
+#input-img{
+  display: none;
+}
+
+.input-file-btn{
+  text-align: center;
+  float: right;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  padding-top: 5px;
+  margin: 10px 10px;
+}
+
+.input-file-btn:hover{
+  color: white;
+  background-color: rgb(125, 125, 125);
+}
+
+.upload-img{
+  width: 600px;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+.search-tags-box{
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.subBtn{
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  width: 50px;
+  height: 30px;
+}
+
+.subBtn:hover{
+  background-color: rgb(125, 125, 125);
+}
+
+/* ----------------------------
+태그 입력창
+------------------------------- */
+
+.search-tag-detail{
+  text-align: center;
+}
+
+.search-tag-detail h3{
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+
+.search-tag-detail p{
+  font-size: 15px;
+  padding-top: 5px;
+}
+
+.tag-box{
+  width: 80%;
+  border: 1px solid black;
+  border-top: none;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  margin-top: -150px;
+  text-align: center;
+}
+
+.taginput{
+  width: 80%;
+}
+
+.clearAllBtn{
+  float: right;
+  margin-right: 10%;
+  margin-left: 10%;
+  border-radius: 5px;
+  border: none;
+  width: 70px;
+  height: 30px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.clearAllBtn:hover{
+  color: white;
+  background-color: rgb(125, 125, 125);
+}
+
+#tags{
+  text-align: center;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  border: none;
+  border-bottom: 5px solid rgb(0, 0, 0);
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.tags span{
+  background-color: rgb(88, 88, 88);
+  color: rgb(193, 193, 193);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.submitBtn{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width: 50px;
+  height: 30px;
+  margin-top: 30px;
+}
+
+.submitBtn:hover{
+  background-color: rgb(125, 125, 125);
+}
+
+#tag-result{
+  margin-top: 30px;
+  font-size: 30px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.rti--container {
+  max-width: 70%;
+  margin: 0 auto;
+}

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+
+.searchReq-body{
+    margin-top: 150px;
+    text-align: center;
+    width: 100%;
+}
+
+.serachReq{
+    margin-top: 50px;
+    min-width: 100%;
+}
+
+.serachReq th,td{
+    border: 1px solid black;
+}
+
+.serachReq .index{
+    width: 10%;
+}
+
+.serachReq .link, .title, .content{
+    width: 30%;
+}
+
+.sm-detail{
+    color: gray;
+    font-size: 13px;
+}
+
+.srindex{
+    width: 20%;
+}
+
+.srlink{
+    width: 50%;
+}
+
+.srimgurl{
+    width: 5%;
+}
+
+.mysearchbtn{
+    float: left;
+    margin-top: 20px;
+    width: 40px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.mysearchbtn:hover{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/* -----------------------
+슬라이드 명언 박스
+-------------------------- */
+.slide-box{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: -120px;
+    margin-bottom: 150px;
+}
+
+.slideimg{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.slide-wrap {
+    width: 40%;
+    margin: 0px auto;
+    position: relative;
+}
+.slide-wrap img {
+    width: 100%;
+    vertical-align: middle;
+}
+.slide-text {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+.slide-text-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.slide-text-table-row {
+    display: table-row;
+}
+.slide-text-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.slide-text p {
+    margin: 0px 40px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(41, 41, 41);
+}

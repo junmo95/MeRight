@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="/js/jquery-3.6.0.js"></script>
+<style>
+table, th, td{
+	border : 1px solid black;
+	text-align : center;
+}
+.btn{
+	font-size : 1.2em;
+}
+</style>
+<meta charset="UTF-8">
+<title>회원관리</title>
+</head>
+<body>
+<table>
+	<tr>
+		<th>id</th>
+		<th>user_id</th>
+
+		<th>email</th>
+	</tr>
+		{% for user in userList%}
+		<tr>
+			<td>
+				<a href="javascript:fn_detail(
+				'{{user.id}}','{{user.user_id}}','{{user.password}}','{{user.email}}'
+				)">{{user.id}}</a>
+			</td>
+			<td>{{user.user_id}}</td>
+			<td>{{user.password}}</td>
+			<td>{{user.email}}</td>
+		</tr>
+		{% endfor %}
+</table><br/>
+<table>
+	<tr>
+		<th>id</th>
+		<td>
+			<input type="text" id="id">
+		</td>
+	</tr>
+	<tr>
+		<th>이름</th>
+		<td>
+			<input type="text" id="user_id">
+		</td>
+	</tr>
+	<tr>
+		<th>비밀번호</th>
+		<td>
+			<input type="text" id="password">
+		</td>
+	</tr>
+	<tr>
+		<th>이메일</th>
+		<td>
+			<input type="text" id="email">
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<input onclick="fun_add()" id="add" class="btn" type="button" value="추가">
+			<input onclick="fun_mod()"id="mod" class="btn" type="button" value="수정">
+			<input onclick="fun_del()"id="del" class="btn" type="button" value="삭제">
+		</td>
+	</tr>
+</table>
+<script>
+	function fun_add(){
+		const id = document.getElementById("id").value
+		const user_id = document.getElementById("user_id").value
+		const password = document.getElementById("password").value
+		const email = document.getElementById("email").value
+		var param = {
+			'id' : id,
+			'user_id' : user_id,
+			'password' : password,
+			'email' : email
+		}
+
+		$.ajax({
+			type : 'POST',
+			url : '/ins.ajax',
+			data : JSON.stringify(param),
+			dataType : 'JSON',
+			contentType : "application/json",
+			success : function(data){
+				location.reload()
+			},
+			error : function(request, status, error){
+
+			}
+		})
+
+	}
+	function fun_mod(){
+		const id = document.getElementById("id").value
+		const user_id = document.getElementById("user_id").value
+		const password = document.getElementById("password").value
+		const email = document.getElementById("email").value
+		var param = {
+			'id' : id,
+			'user_id' : user_id,
+			'password' : password,
+			'email' : email
+		}
+
+		$.ajax({
+			type : 'POST',
+			url : '/mod.ajax',
+			data : JSON.stringify(param),
+			dataType : 'JSON',
+			contentType : "application/json",
+			success : function(data){
+				location.reload()
+			},
+			error : function(request, status, error){
+
+			}
+		})
+	}
+	function fun_del(){
+		const id = document.getElementById("id").value
+		const user_id = document.getElementById("user_id").value
+		const password = document.getElementById("password").value
+		const email = document.getElementById("email").value
+		var param = {
+			'id' : id,
+			'user_id' : user_id,
+			'password' : password,
+			'email' : email
+		}
+
+		$.ajax({
+			type : 'POST',
+			url : '/del.ajax',
+			data : JSON.stringify(param),
+			dataType : 'JSON',
+			contentType : "application/json",
+			success : function(data){
+				location.reload()
+			},
+			error : function(request, status, error){
+
+			}
+		})
+	}
+	function fn_detail(id, user_id, password, email){
+		var obj_id = document.getElementById("id");
+		var obj_user_id = document.getElementById("user_id");
+		var obj_password = document.getElementById("password");
+		var obj_email = document.getElementById("email");
+
+		obj_id.value=id;
+		obj_user_id.value=user_id;
+		obj_password.value=password;
+		obj_email.value=email;
+	}
+</script>
+</body>
+</html>

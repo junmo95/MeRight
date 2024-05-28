@@ -1,0 +1,67 @@
+#-*- coding:utf-8 -*-
+before_first_request : 가장 첫번째 요청 전에
+before_request : 모든 요청 전에. Web Filter
+after_request : 요청 수행 후, 나가기 직전에 ex) DB클로징 같은 작업
+teardown_request : destroy, 요청 다 수행하고 작업이 끝났을 때
+teardown_appcontext : application context가 destroy, 끝났을 때
+
+
+라우팅 방법
+@app.route('/test')
+@app.route('/test', methods=['POST', 'PUT'])
+@app.route('/test/<tid>')
+@app.route('/test', defaults={'page': 'index'})
+@app.route('/test', host='abc.com')
+@app.route('/test', redirect_to='/new_test')
+
+
+서브도메인 사용
+@app.route('/')
+def hello():
+    return "Hello"
+
+@app.route('/', subdomain="g")
+def hello_world():
+    return "Hello World"
+
+
+Request Parameter
+- get방식 : request.args.get('q')
+- post방식 - form : request.form.get('p', 디폴트값)
+- get or post : request.values.get('v')
+- parameters : request.args.getlist('qs')
+
+multiDict Type
+-> ...get(<param>, <default>, <type>)
+- methods : get, getlist, clear, ...
+
+
+request.is_xhr -> ajax로 불렀는지 확인하는 방법
+
+
+### SQLAlchemy, ORM(Object-Realtional Mapping)
+CRUD
+- Create
+u = User("e-mail", "username", "pw")
+db_session.add(u)
+
+- Read
+u = User.query.filter(User.id == x).first()
+
+- Update
+u.email = "new-email"
+db_session.add(u)
+
+- Delete
+db_session.delete(u)
+
+- Commit & Rollback
+db_session.commit()
+de_session.rollback()
+
+* Modules
+create_engine, Table, Column
+Integer, String, Boolean, Date, Time, Float, BigInt, Binary, TIMESTAMP ...
+scoped_session, sessionmaker
+declarative_base
+SQLAlchemyException

@@ -1,0 +1,29 @@
+.chatbot{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.chat-input{
+    border: 1px solid gray;
+    /* border-top: 1px solid black;
+    border-bottom: 1px solid black; */
+    border-radius: 5px;
+    width: 90%;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.chatBtn{
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    width: 40px;
+}
+
+.chatBtn:hover{
+    background-color: gray;
+    color: white;
+}

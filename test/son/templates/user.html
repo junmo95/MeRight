@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td{
+	border : 1px solid black;
+}
+</style>
+<meta charset="UTF-8">
+<title>회원관리</title>
+</head>
+<body>
+<table>
+	<tr>
+		<th>id</th>
+		<th>user_id</th>
+
+		<th>email</th>
+	</tr>
+		{% for user in userList%}
+		<tr>
+			<td>{{user.id}}</td>
+			<td>{{user.user_id}}</td>
+
+			<td>{{user.email}}</td>
+		</tr>
+		{% endfor %}
+</table>
+</body>
+</html>

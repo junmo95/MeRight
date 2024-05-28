@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+.profile-body{
+  margin-bottom: 35.5%;
+}
+
+.scroll-div{
+  text-align: center;
+}
+
+.section-scroll{
+  text-decoration: none !important ;
+  display: inline-block;
+  padding-top: 100px;
+}
+
+/* -------------------------
+info 메인 타이틀
+---------------------------- */
+.info-main{
+  vertical-align: middle;
+  text-align: center;
+  height: 300px;
+  position: relative;
+  background-image: url('https://png.pngtree.com/background/20211215/original/pngtree-future-technology-line-exhibition-board-background-ai-picture-image_1463817.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 400px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.info-main::before{
+  content:"";
+  opacity:0.5;
+  position:absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  background-color: rgb(0, 0, 0);
+}
+
+.main-explane2{
+  padding-top: 100px;
+}
+
+/* -------------------------
+소개 title
+------------------------- */
+.contents{
+  text-align: center;
+  margin: 10px auto;
+}
+
+.module{
+  position: relative;
+  padding: 200px 0;
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.hr1{
+  border: 0.2px solid rgb(149, 149, 149, 0.4);
+}
+
+.module-title {
+  position: relative;
+  letter-spacing: 4px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  color: #111;
+  margin: 0 0 70px;
+}
+  
+.module-subtitle {
+  text-align: center;
+  font-size: 16px;
+  color: #111;
+  margin-bottom: 10px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.module-title + .module-subtitle {
+  margin-top: -60px;
+}
+  
+.alt-module-subtitle {
+  display: table;
+}
+
+.down{
+  font-size: 60px;
+  color: rgb(159, 159, 159);
+  margin: 0 auto; 
+}
+
+.down:hover{
+  color: rgb(54, 54, 54);
+}
+
+.large-text {
+  font-size: 24px !important;
+}
+
+.container{
+  margin-bottom: 5%;
+  display: flex;
+}
+
+/* --------------------------
+강점 소개
+------------------------------ */
+.icons{
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.icon{
+  width: 50px;
+  height: auto;
+}
+
+.features-item {
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  transition: all 0.2s linear;
+}
+
+.features-item:hover{
+  transform: scale(1.2);
+  color: black;
+}
+
+.features-title{
+  font-size: 15px;
+  color: rgb(69, 69, 69);
+}
+
+/* -------------------------
+사진첨부
+--------------------------- */
+#news{
+  text-align: center;
+}
+
+.disital{
+  margin: 100px auto;
+  text-align: center;
+  width: 80%;
+  display: inline-block;
+}

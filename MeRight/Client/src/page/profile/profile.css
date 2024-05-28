@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+.profile-body{
+  margin-top:100px;
+  display: flex;
+  margin-bottom: 0;
+}
+
+/* ----------------------------------
+사이드바
+------------------------------------- */
+.side-bar{
+  border-right: 1px solid rgb(201, 201, 201);
+  width: 250px;
+  height: 670px;
+}
+
+.profile-img1{
+  border-radius: 100%;
+  margin-left: 20px;
+  margin-bottom: -70%;
+  width: 150px;
+  height: 150px;
+}
+
+
+.search-box{
+  display: flex;
+}
+
+.form-control{
+  box-shadow: none;
+  border-radius: 2px;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+  border: 1px solid #EAEAEA;
+  transition: all 0.4s ease-in-out 0s;
+  height: 30px;
+  width: 150px;
+}
+
+.form-control:focus {
+  border-color: #CACACA;
+}
+
+.search-btn {
+  text-align: center;
+  width: 40px;
+  height: 30px;
+  border: none;
+  color: #999;
+  border-radius: 5px;
+}
+
+.search-btn:hover{
+  background-color: rgb(36, 36, 36);
+  color: white;
+}
+  
+.module-small {
+  position: relative;
+  padding: 140px 0;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.module-small {
+  padding: 70px 0;
+}
+
+.sidebar .widget {
+  margin-top: 0px;
+}
+  
+.sidebar .widget-title {
+  text-align: center;
+  color: #111;
+}
+  
+.widget .widget-title {
+  border-bottom: 1px solid #c2c2c2;
+  font-size: 14px;
+  padding: 0 0 10px;
+  margin: 0 0 15px;
+}
+  
+.widget ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.widget .icon-list li {
+  padding: 5px 0;
+}
+  
+.widget .icon-list li a:before {
+  content: "\00BB";
+  color: #666666;
+  padding-right: 5px;
+}
+
+.name{
+  color: #999;
+  text-align: center;
+}
+
+
+/* ----------------------------------
+소개페이지
+------------------------------------- */
+.intro{
+  display: flex;
+  justify-content: center;
+  width: 86%;
+  height: auto;
+  margin-top: 150px;
+  margin-bottom: -365px;
+}
+
+.icon-box{
+  display: flex;
+}
+
+.icon{
+  margin-left : auto; 
+  width: 30px;
+  height: 30px;
+}
+
+.intro-header{
+  margin-right: 100px;
+}
+
+.names{
+  color: darkblue;
+  font-size: 80px;
+  font-family: 'Anton', sans-serif;
+}
+
+.intro-detail{
+  color: #666666;
+  font-size: 15px;
+}
+
+.main-intro{
+  width: 80%;
+  margin-top: 50px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 18px;
+}
+
+.bb{
+  color: rgb(0, 0, 0);
+  padding-top: 10px;
+}
+
+
+/* ------------------------------------
+과거 구현 부분 이미지
+--------------------------------------- */
+.jejuImg{
+  /* float: right; */
+  /* margin-top: 12%; */
+  margin-right: 10px;
+  width: 250px;
+  height: 350px;
+}
